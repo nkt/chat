@@ -1,0 +1,12 @@
+{
+  "name": "chat",
+  "version": "0.0.0",
+  "authors": [
+    "Nikita Gusakov <dev@nkt.me>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.3.0",
+    "angular-socket-io": "~0.6.1"
+  }
+}

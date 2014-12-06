@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+form {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.contacts {
+    display: flex;
+    flex: 30%;
+}
+
+.chat {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.messages {
+    flex: 1;
+}
+
+.message-form {
+    background: #f7f7f7;
+    padding: 8px 10px;
+    outline: 1px solid #dedede;
+}
+
+.message {
+    font: 14px "Helvetic Neue", Helvetica, Arial;
+    width: 35%;
+    border-radius: 3px;
+    border: 1px solid #eaeaef;
+    margin: 5px 25px;
+    padding: 5px 10px;
+    background: #f5f5f5;
+}
+
+.message-input {
+    width: 100%;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    padding: 5px 5px;
+    font: 12px "Helvetic Neue", Helvetica, Arial;
+    font-weight: lighter;
+}
+
+.message-input:focus {
+    outline: none;
+}
